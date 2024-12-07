@@ -21,7 +21,7 @@ def countdown_timer():
             # Ստուգել մուտքի ձևաչափը
             if not is_valid_time_format(time_input):
                 print("Invalid format! Please use the format hh:mm:ss with only numbers and colons.")
-                continue  # Կրկին խնդրել մուտքագրիր ժամանակը
+                continue  # Կրկին խնդրիր մուտքգրել ժամանակը
 
             # Մուտքի ժամանակները կտրել և վերածել թվերի
             h, m, s = map(int, time_input.split(":"))
